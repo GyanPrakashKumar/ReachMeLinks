@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #fbf3e3;
+}
+.wrapper {
+    width: 300px;
+    min-height: 400px;
+    margin: 10% auto;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #3a239f;
+    border-radius: 5px;
+    box-shadow: -10px -10px 0px #c7f5e3;
+}
+
+.wrapper h2 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px;
+    text-shadow: 3px 3px 0px #bacfe3;
+}
+.wrapper .outer {
+    margin: 5px 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #3a239f;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+.wrapper .outer a {
+    text-decoration: none;
+    color: #99c4f0;
+    letter-spacing: 2px;
+}
+.wrapper .outer p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Dongle', sans-serif;
+}
+.wrapper .icon img {
+    height: 40px;
+    width: 40px;
+}
