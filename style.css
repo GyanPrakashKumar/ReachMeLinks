@@ -6,10 +6,12 @@ html {
   width: 100%;
   background-color: #fbf3e3;
 }
+
+/* main */
 .wrapper {
     width: 300px;
     min-height: 400px;
-    margin: 10% auto;
+    margin: 20% auto;
     padding: 5px;
     background-color: #fff;
     border: 1px solid #3a239f;
@@ -48,4 +50,10 @@ html {
 .wrapper .icon img {
     height: 40px;
     width: 40px;
+}
+footer {
+    font-size: 1.5rem;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    padding-bottom: 2rem;
 }
